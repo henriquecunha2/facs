@@ -52,5 +52,6 @@ async def on_message(message):
                     # Mudar cargo do usuário da msg
                     # role = discord.utils.get(guild.roles, name='aluno')
 
-
-bot.run('MTExMDE3NDk3MzEwNjA2OTU3NQ.GpDej0.W56EzgwX87mUbDXtDwE-CGzHzS6TxFMXOuR9NY')
+arq_token = open("token_discord.txt", )
+bot.run(arq_token.readline())
+arq_token.close()
